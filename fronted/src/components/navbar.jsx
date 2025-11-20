@@ -11,7 +11,7 @@ import { Search } from 'lucide-react';
 
 export default function App() { // Or whatever your main component is
     return (
-        <div className="bg-gray-800 min-h-screen"> {/* Dark background for contrast */}
+        <div className="bg-gray-800 "> {/* Dark background for contrast */}
 
             {/* Main Navbar */}
             <nav className="w-full bg-white rounded-b-3xl shadow-lg px-6 py-3 flex items-center justify-between mt-0">
