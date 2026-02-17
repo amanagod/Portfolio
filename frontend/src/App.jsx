@@ -1,5 +1,5 @@
 import { lazy, Suspense } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { Toaster } from 'react-hot-toast';
 import ErrorBoundary from './components/common/ErrorBoundary';
@@ -26,7 +26,7 @@ function AppContent() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <ScrollToTop />
         <Layout>
           <Suspense fallback={<Spinner />}>
@@ -40,7 +40,7 @@ function AppContent() {
             </Routes>
           </Suspense>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
 
       {/* Toast notifications — theme-aware */}
       <Toaster
