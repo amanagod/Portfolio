@@ -12,6 +12,6 @@ export const personalInfo = {
     linkedin: 'https://linkedin.com/in/nishant-panchal-a19475275',
     leetcode: 'https://leetcode.com/u/nishantpanchal2411',
   },
-  resumeUrl: '/resume.pdf',
+  resumeUrl: import.meta.env.BASE_URL + 'resume.pdf',
 };
 

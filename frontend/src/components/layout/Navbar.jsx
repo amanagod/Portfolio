@@ -81,7 +81,7 @@ const Navbar = () => {
           </button>
 
           <a
-            href="/resume.pdf"
+            href={import.meta.env.BASE_URL + 'resume.pdf'}
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 text-sm font-medium border border-primary-500/50 text-primary-400 rounded-lg hover:bg-primary-500/10 transition-all"
@@ -137,7 +137,7 @@ const Navbar = () => {
                 );
               })}
               <a
-                href="/resume.pdf"
+                href={import.meta.env.BASE_URL + 'resume.pdf'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block px-4 py-3 text-sm font-medium text-primary-400 border border-primary-500/30 rounded-lg text-center mt-3"

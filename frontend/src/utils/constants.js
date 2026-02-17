@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   title: 'Nishant Panchal | Full Stack Developer',
   description:
     'Motivated B.Tech CSE graduate skilled in building scalable full-stack web applications using MERN stack. Experienced in REST API development, JWT authentication, and database management.',
-  url: 'https://nishantpanchal.dev',
+  url: 'https://amanagod.github.io/Portfolio/',
   ogImage: '/og-image.png',
 };
 
